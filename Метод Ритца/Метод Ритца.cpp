@@ -17,7 +17,7 @@ void gauss(double a[m][m], double y[m],double x[m])
 	
 	double max;
 	int k, index;
-	const double eps = 0.1;   // точность
+	const double eps = 0.0001;   // точность
 	k = 0;
 	while (k < m)
 	{
